@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+  <div class="top-right">
+    <button id="themeToggle">🌙</button>
+  </div>
+
+  <div class="container">
+    <h1>🌟To-Do List</h1>
+    <h2>My Tasks</h2>
+    <form id="todoForm">
+      <input type="text" id="taskInput" placeholder="Enter Task"   required >
+      <input type="datetime-local" id="taskTime" >
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
